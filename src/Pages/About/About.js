@@ -22,7 +22,7 @@ const About = () => {
                                 <a href='https://www.facebook.com/profile.php?id=100041049621159' target='blank'> <img src={facebook} className='w-8 h-8' alt="" /></a>
                             </div>
                             <div className='mt-2'>
-                                <a className='bg-blue-500 px-3 py-1 rounded-md' href='https://drive.google.com/file/d/10DywtUjcxAwhwSkIQhd-PnSLUY2tMwoG/view?usp=share_link' target='blank'> <span className='font-serif font-medium text-xl text-black'>Download Resume</span></a>
+                                <a className='bg-blue-500 px-3 py-2 rounded-md' href='https://drive.google.com/file/d/10DywtUjcxAwhwSkIQhd-PnSLUY2tMwoG/view?usp=share_link' target='blank'> <span className='font-serif font-medium text-2xl text-white'>Resume</span></a>
                             </div>
                         </div>
                     </div>
@@ -34,12 +34,24 @@ const About = () => {
             </div>
 
             <h1 className='text-3xl text-center text-black font-semibold font-serif mb-2'><span className='border-b-4 border-indigo-500 rounded-lg'>Skills</span></h1>
+            <div className='grid gap-2 grid-cols-2 md:grid-cols-3 lg:flex lg:justify-center p-2'>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>JavaScript</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>React.js</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>Node.js</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>Express.js</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>MongoDB</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>Firebase</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>Tailwind CSS</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>Bootstrap</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>CSS</p>
+                <p className='bg-emerald-800 text-white px-4 py-3 text-center font-serif font-bold rounded-lg'>HTML</p>
+            </div>
             <div className='lg:flex w-full lg:p-5'>
                 <div className='lg:w-1/2 w-full p-2'>
-                    
+
                 </div>
                 <div className='lg:w-1/2 w-full p-2'>
-                    
+
                 </div>
             </div>
         </div>
